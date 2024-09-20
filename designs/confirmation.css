@@ -1,0 +1,90 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%;
+    background-color: black;
+}    
+
+.confirmation-subcontainer {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d4cfc9;
+    width: 400px;
+    height: 70vh;
+}
+
+.confirmation-subcontainer h1 {
+    margin: 0;
+}
+
+.confirm-info {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.select select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.id-number input {
+    padding: 10px;
+    width: 94%;
+    border-radius: 5px;
+}
+
+.photo  {
+    display: flex;
+    justify-content: center;
+}
+
+.photo button {
+    padding: 20px;
+    border: 3px solid #318798;
+    border-radius: 5px;
+}
+
+.statement {
+    background-color: #293747;
+    opacity: 36%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submit-cancel {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.submit-cancel button {
+    padding: 20px;
+    width: 170px;
+    border: 3px solid #318798;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #318798;
+    color: white;
+}
+
+.id-number, .photo, .statement, .submit-cancel {
+    margin-top: 20px;
+}

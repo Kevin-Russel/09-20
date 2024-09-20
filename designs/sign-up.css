@@ -1,0 +1,130 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.sign-up-subcontainer h1 {
+    margin: 0;
+}
+
+.sign-up-subcontainer {
+    padding: 30px;
+    width: 600px;
+    height: 80vh;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+}
+
+.f-m-l {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-m-l, .email, .password, .confirm-password, .birthday {
+    margin-top: 20px;
+}
+
+.f-m-l input, .email input, .password input, .confirm-password input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.email input, .password input, .confirm-password input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96.5%;
+}
+
+.m-d-y {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-d-y select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.birthday {
+    margin-top: 20px;
+}
+
+.g-s {
+    display: flex;
+    gap: 23%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.male, .female {
+    display: flex;
+    margin-top: 10px;
+}
+
+.yes, .no {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.g-s p {
+    margin: 0;
+}
+
+.a-i {
+    width: 100%;
+}
+
+.if-yes {
+    margin-top: 10px;
+}
+
+.if-yes input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 82.5%;
+}
+
+.n-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.next button, .cancel a {
+    width: 200px;
+    
+}
+
+.next button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #318798;
+}
+
+.cancel a {
+    color: black;
+}
